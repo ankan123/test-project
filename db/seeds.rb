@@ -9,7 +9,7 @@
 User.create(id: 1,  email: "admin@gmail.com", password: "123456", admin: true)
 User.create(id: 2,  email: "luke.luke@gmail.com", password: "ank123")
 User.create(id: 3,  email: "harry.harry@gmail.com", password: "ank123")
-User.create(id: 4, email: "sam.sam@gmail.com", password: "ank123")
+User.create(id: 4, email: "sam.sam@gmail.com", password: "an123456k123")
 User.create(id: 5,  email: "tom.tom@gmail.com", password: "ank123")
 User.create(id: 6,  email: "suresh.suresh@gmail.com", password: "ank123")
 User.create(id: 7,  email: "ramesh.ramesh@gmail.com", password: "ank123")
