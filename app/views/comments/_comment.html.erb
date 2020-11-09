@@ -1,0 +1,9 @@
+<div id="comment-<%= comment.id %>">  
+    <p class="font-weight-bold"> <%= comment.user.email %> (<%= time_ago_in_words comment.created_at  %> )</p>    
+ 
+    <span class="ml-4"><%= comment.body %></span>
+    <% if (current_user && current_user == comment.user) || (current_user && current_user.admin) %>
+        <%= link_to 'delete', event_comment_path(@event, comment), method: :delete, remote: true, :class => 'delete-comment-link' %>
+    <%end%>
+   <hr>
+</div>

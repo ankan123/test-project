@@ -13,3 +13,65 @@
  *= require_tree .
  *= require_self
  */
+
+ .navbar-brand>img{
+     height: 55px;
+     width: 90px;
+ }
+
+.navbar-container{
+      margin-bottom: 0;
+  }
+
+.navbar{
+     background-color: #003399 !important;
+     padding-top: 0 !important;
+     padding-bottom: 0 !important;
+     margin-bottom: 20px;
+ }
+
+   .nav-item,.nav-item>a{
+      color: white !important;
+      margin-left: 20px;
+  }
+
+  .nav-item>a:hover{
+    color: rgb(218, 213, 213) !important;
+}
+
+.login-signin{
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.event-card{
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.edits{
+    float: right;
+}
+
+.performer{
+    font-weight: bold;
+}
+
+
+
+.comment-form{
+    display: flex;
+    justify-content: center;
+}
+
+#comment-section{
+    max-width: 804px;
+    margin: 10px auto;
+    background: #ddd;
+    padding: 18px;
+    border-radius: 17px;
+}
+
+.carousel-inner{
+    height: 512px;
+}
